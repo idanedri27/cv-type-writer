@@ -1,0 +1,113 @@
+body{
+    width: 100%;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1f1d1d, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #1d1c1c, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding-top: 10px;
+  } 
+  
+  .animation{
+    color: lime; 
+    font-family: "Courier";
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 4s steps(60, end); 
+  }
+  
+  p:nth-child(2){
+    animation: type2 8s steps(60, end);
+  }
+  
+  p a{
+    color: lime;
+    text-decoration: none;
+  }
+  
+  span{
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes type{ 
+    from { width: 0; } 
+  } 
+  
+  @keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  
+  @keyframes blink{
+    to{opacity: .0;}
+  }
+  
+  ::selection{
+    background: black;
+  }
+
+#profile-pic{
+    border-radius: 50%;
+    width: 200px;
+    
+}
+h1{
+    font-weight: 500;
+}
+h4{
+    font-weight: 500;
+}
+
+p{
+    font-size: 25px;
+}
+
+.icon{
+    font-size: 30px;
+    color:wheat
+}
+
+.icon:hover{
+   
+    color:purple
+}
+
+.protfolio{
+    color:wheat
+}
+
+.protfolio:hover{
+    color:wheat
+}
+
+.col-8{
+    padding-left: 200px;
+    margin-top: 100px;
+}
+.a{
+    color:wheat
+    
+}
+.gold{
+    color:wheat
+}
+.img-skills{
+    width: 50px;
+    height: 50px;
+}
+.certificat{
+    width: 80px;
+    height: 100px;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+.certificat:hover {
+    transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+
+  
+ 
